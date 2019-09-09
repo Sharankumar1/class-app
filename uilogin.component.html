@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="btn btn-success btn-block">
+        <form [formGroup]="login">
+            <p>username:<input type="text" formControlName="username"></p>
+            <p>password:<input type="password" formControlName="password"></p>
+            <button (click)="save(login.value)">signup</button><br>
+            <button type="button" [routerLink]="['/movie']">movie details</button><br>
+            new user..? click here to <a [routerLink]="['/uiregister']">Register</a>
+        </form>
+    </div>
+</div>

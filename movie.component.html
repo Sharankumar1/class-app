@@ -1,0 +1,17 @@
+<div class="border">
+    <form [formGroup]="movie">
+        <h2>Movie List Details</h2>
+        <div class="color">
+            <p>Movie Name</p>
+            <input type="text" formControlName="moviename" placeholder="Enter the Name">
+            <p>Language</p>
+            <input type="text" formControlName="language" placeholder="Enter the Language">
+            <p>Genre</p>
+            <input type="text" formControlName="Genre" placeholder="Enter the Language">
+        </div>
+        <hr>
+        <button (click)="save(movie.value)" class="btn btn-success btn-block">save</button>
+        <button (click)="submit()" class="btn btn-primary btn-block">movielist</button>
+        <button (click)="submit1()" class="btn btn-danger btn-block">back to login</button>
+    </form>
+</div>

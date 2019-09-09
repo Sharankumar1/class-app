@@ -1,0 +1,17 @@
+.row
+{
+    border: 1px solid black;
+    background-color:lightskyblue;
+    margin: auto;
+}
+.p1{
+    margin-left: 62px;
+}
+.p2
+{
+    margin-left: 67px;   
+}
+.button
+{
+    margin-left: 190px;   
+}
